@@ -1,1 +1,1 @@
-# a-latte-coffee
+This project is about coffee.

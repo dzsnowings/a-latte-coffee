@@ -1,0 +1,79 @@
+body {
+  color: #ffffff;
+  background-size:cover;
+  margin-top: 40px;
+  line-height: 24px;
+}
+button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-decoration-color: black;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  text-shadow: 3px 3px #000000;
+  color: #ffffff;
+  font-family: 'Abril Fatface', cursive;
+}
+h2 {
+  margin-left: 50px;
+  text-shadow: 3px 3px #000000;
+  font-family: 'Abril Fatface', cursive;
+  color: #ffffff;
+}
+p {
+  margin-left: 50px;
+  text-shadow: 3px 3px #000000;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 125%;
+  color: #ffffff;
+}
+ul, ol {
+  margin-left: 65px;
+  padding-bottom: 20px;
+  text-shadow: 3px 3px #000000;
+  font-family: 'Libre Baskerville', serif;
+  color: #ffffff;
+}
+.table {
+}
+.shadow {
+  box-shadow: 0 0px 0px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 20px;
+}
+.shadow:hover {
+  box-shadow: 0 6px 24px rgba(0,0,0,0.7);
+  transition: 0.3s
+}
+.nav-bar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.nav-bar a {
+  color: white;
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  text-decoration: none;
+  padding: 10px 30px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.nav-bar a:hover {
+  background-color: #000;
+}
